@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charlie.pause</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="Logo.png" alt="Charlie.pause"><span class="brand-name">Charlie.pause</span></li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        
+        
+        <div class="music-list">
+            <h1>Welcome to Charlie.pause</h1>
+            <div class="song-items">
+                <div class="song-item">
+                    <img src="cover-music-1.png" alt="1">
+                    <span>Qalbi Fil Madinah</span>
+                    <span class="song-list-play"><span>03:28</span><i class="fa-solid fa-play"></i></span>
+                </div>
+                <div class="song-item">
+                    <img src="Batmana-ansak-image.jpg" alt="1">
+                    <span>Batmana Ansak</span>
+                    <span class="song-list-play"><span>02:53</span><i class="fa-solid fa-play"></i></span>
+                </div>
+                <div class="song-item">
+                    <img src="pic-3.jpg" alt="1">
+                    <span>Rahmatun Lil’Alameen </span>
+                    <span class="song-list-play"><span>04:20</span><i class="fa-solid fa-play"></i></span>
+                </div>
+                <div class="song-item">
+                    <img src="Hayati-pic.jpg" alt="1">
+                    <span>Hayati </span>
+                    <span class="song-list-play"><span>04:18</span><i class="fa-solid fa-play"></i></span>
+                </div>
+                <div class="song-item">
+                    <img src="Sherine-KalamEineh-pic.jpg" alt="1">
+                    <span>Kalam Eineh</span>
+                    <span class="song-list-play"><span>03:57</span><i class="fa-solid fa-play"></i></span>
+                </div>
+                <div class="song-item">
+                    <img src="Humood-KunAnta.jpg" alt="1">
+                    <span> Kun Anta</span>
+                    <span class="song-list-play"><span>04:13</span><i class="fa-solid fa-play"></i></span>
+                </div>
+                <div class="song-item">
+                    <img src="BalaghalUlaBiKamaalihi-pic.jpg" alt="1">
+                    <span>Balaghal Ula Bi Kamaalihi </span>
+                    <span class="song-list-play"><span>09:13</span><i class="fa-solid fa-play"></i></span>
+                </div>
+                <div class="song-item">
+                    <img src="FaslonKoTakalf-pic.jpg" alt="1">
+                    <span>Faslon Ko Takalf</span>
+                    <span class="song-list-play"><span>01:43</span><i class="fa-solid fa-play"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="music-banner"></div>
+    </div>
+
+    <div class="botton">
+        <input type="range" id="volume" name="volume" min="0" max="100">
+        <div class="time-info" id="timeInfo">00:00 / 00:00</div>
+        <div class="music-gif-bar" aria-hidden="true">
+            <div class="equalizer-bars">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="icons">
+            <!--- Icons -->
+            <i class="fa-solid fa-backward fa-lg"></i>
+            <i class="fa-solid fa-play fa-lg" id = "masterPlay"></i>
+            <i class="fa-solid fa-forward fa-lg"></i>
+            
+        </div>
+        
+    </div>
+
+    <script src="https://kit.fontawesome.com/7f143507a4.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
